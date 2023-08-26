@@ -1,0 +1,2890 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Modern E-commerce Website" />
+    <title>Goldsmith-Modern E-commerce Website</title>
+    <link rel="shortcut icon" href="images/021-gem.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amethysta&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main position-relative">
+      <div
+        class="top-bar text-white py-3 overflow-hidden px-4 d-flex justify-content-between"
+      >
+        <div class="top-social" style="font-size: 14px">
+          <a href="" class="text-white text-center">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="" class="text-white px-2">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="" class="text-white px-2">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="slogans">
+          <div class="text-1">Free shipping on all the orders above $70</div>
+          <div class="text-2">you can pay with cryptocurrencies</div>
+        </div>
+
+        <div
+          class="helping-links d-flex align-items-center justify-content-center"
+          style="
+            font-family: 'Jost', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+          "
+        >
+          <div class="links px-2">
+            <a href="#" class="text-white text-decoration-none">CART</a>
+          </div>
+          <div class="links px-2">
+            <a href="#" class="text-white text-decoration-none">SEARCH</a>
+          </div>
+          <div class="links px-2">
+            <a href="#" class="text-white text-decoration-none">HELP</a>
+          </div>
+        </div>
+      </div>
+      <nav
+        class="navbar d-flex flex-wrap-nowrap align-items-center position-sticky top-0 py-4 px-2 justify-content-between"
+      >
+        <div class="nav-links text-transform-uppercase">
+          <a href="">Home</a>
+          <a href="">FAQ</a>
+          <a href="">Contact</a>
+          <a href="">Blog</a>
+          <a href="">Product</a>
+          <a href="">About</a>
+        </div>
+        <div class="logo">
+          <a href="#"> GOLDSMITH </a>
+        </div>
+        <div class="action-btns">
+          <a href="" class="d-lg-inline d-none">
+            <i class="fa fa-search"></i>
+          </a>
+          <a href="">
+            <i class="fa fa-shopping-bag"></i>
+          </a>
+          <a href="" class="d-lg-inline d-none">
+            <i class="fa fa-heart-o"></i>
+          </a>
+          <a href="" class="d-lg-inline d-none">
+            <i class="fa fa-refresh"></i>
+          </a>
+          <a href="" class="d-lg-inline d-none">
+            <i class="fa fa-user"></i>
+          </a>
+          <button
+            class="btn"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas flex-row offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div
+              class="offcanvas-header d-flex align-items-start flex-column justify-content-start"
+            >
+              <button
+                type="button"
+                class="btn-close text-reset mb-2"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+              <a href="">
+                <i class="fa fa-search"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-shopping-bag"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-heart-o"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-refresh"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-user"></i>
+              </a>
+
+              <div class="logo">
+                <a href="#"> GOLDSMITH </a>
+              </div>
+            </div>
+            <div class="offcanvas-body">
+              <form class="d-flex align-items-center position-relative">
+                <i
+                  class="fa fa-search canvas-search-icon position-absolute top-10"
+                ></i>
+                <input
+                  type="text"
+                  class="form-control canvas-search"
+                  placeholder="Search products...."
+                />
+              </form>
+              <ul class="text-transform-uppercase pt-2">
+                <li class="py-3"><a href="#">Home</a></li>
+                <li class="py-3"><a href="#">Faq</a></li>
+                <li class="py-3"><a href="#">Contact</a></li>
+                <li class="py-3"><a href="#">blog</a></li>
+                <li class="py-3"><a href="#">About</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="home-page">
+        <!-- home-page-start -->
+        <div class="hero-section p-3">
+          <div class="row">
+            <div class="col-lg-9 col-md-12">
+              <div class="hero-carousel">
+                <div
+                  id="carouselExampleControls"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="img-cont">
+                        <img
+                          src="images/accesories-full-1.jpg"
+                          class="w-100"
+                          alt="..."
+                        />
+                      </div>
+
+                      <div class="info">
+                        <h1 class="py-3">Meet The Lines Of The Millennium</h1>
+                        <p class="py-3">
+                          fashion is to please your eye. Shapes and proportions
+                          are for your intellect. i have an obsession wit
+                          details and pattern
+                        </p>
+                        <div
+                          class="d-flex buttons align-items-center justify-content-start py-2"
+                        >
+                          <button class="me-2 collection">
+                            Check Collection
+                          </button>
+                          <button class="mx-2 shop-now">Shop Now</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <div class="img-cont">
+                        <img
+                          src="images/accesories-full-2.jpg"
+                          class="w-100"
+                          alt="..."
+                        />
+                      </div>
+
+                      <div class="info">
+                        <h1 class="py-lg-3 py-md-1">new mordern collection</h1>
+                        <p class="py-3">
+                          fashion is to please your eye. Shapes and proportions
+                          are for your intellect. i have an obsession wit
+                          details and pattern
+                        </p>
+                        <div
+                          class="d-flex align-items-center justify-content-start py-3"
+                        >
+                          <button class="me-2 collection">
+                            Check Collection
+                          </button>
+                          <button class="mx-2 d-none d-lg-block shop-now">
+                            Shop Now
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <div class="hero-img">
+                <img src="images/hero-img.png" class="d-block w-100" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="offers px-3 py-5 text-center">
+          <div class="row">
+            <div class="col-lg-3 col-12">
+              <div class="card">
+                <div class="img-cont">
+                  <img src="images/033-tag.png" class="img-fluid" alt="" />
+                </div>
+                <h1 class="pt-3">Amazing value Everyday</h1>
+                <p class="py-1">Items prices that fit your budget</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="card">
+                <div class="img-cont">
+                  <img
+                    src="images/011-best-seller.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <h1 class="pt-3">Successful Customer Service</h1>
+                <p class="py-1">
+                  We work with a focus on 100% customer satisfaction.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="card">
+                <div class="img-cont">
+                  <img
+                    src="images/071-credit-card.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <h1 class="pt-3">Completely free shipping</h1>
+                <p class="py-1">We'll handle the shipping.</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-12">
+              <div class="card">
+                <div class="img-cont">
+                  <img
+                    src="images/016-fast-delivery.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <h1 class="pt-3">Amazing value Everyday</h1>
+                <p class="py-1">Items prices that fit your budget</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nose-earings px-3 py-3">
+          <div class="row">
+            <div class="col-lg-3 col-md-5">
+              <div class="left">
+                <div class="img-cont">
+                  <img src="images/2.png" class="img-fluid" alt="" />
+                </div>
+                <div class="left-cont text-center">
+                  <span>Nose Rings</span>
+                  <h2>Nose Earrings</h2>
+                  <span>25 Nov - 29 Nov</span>
+                  <div><a href="#">See More Products</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-7">
+              <div class="right">
+                <div class="row">
+                  <div class="col-lg-3 col-6">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6 mt-3">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6 mt-3">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6 mt-3">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-6 mt-3">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discounts py-5">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="discount-box">
+                  <div
+                    class="discount d-flex align-items-baseline gap-3 justify-content-around py-3"
+                  >
+                    <p class="text-danger">
+                      Super discount for your first purchase
+                    </p>
+
+                    <div class="code text-white rounded-pill py-2 px-3">
+                      FIRST250
+                    </div>
+                    <span class="text-dark"
+                      >Use discount code in checkout page.</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div
+                  class="campaign-box d-flex align-items-baseline justify-content-around py-3 px-3"
+                >
+                  <p>2nd shopping surprise campaign!</p>
+                  <button class="btn bg-warning py-2 px-3 rounded-pill">
+                    Check Products <i class="fa fa-caret-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nose-earings px-3 py-4">
+          <div class="row">
+            <div class="col-lg-3 col-md-5">
+              <div class="left">
+                <div class="img-cont">
+                  <img src="images/5.png" class="img-fluid" alt="" />
+                </div>
+                <div class="left-cont text-center">
+                  <span>Nose Rings</span>
+                  <h2>Nose Earrings</h2>
+                  <span>25 Nov - 29 Nov</span>
+                  <div><a href="#">See More Products</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-7">
+              <div class="right">
+                <div class="row">
+                  <div class="col-lg-3 col-md-6 col-6">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-6">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-6">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-6">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-6 mt-3">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-6 mt-3">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-6 mt-3">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-6 mt-3">
+                    <div class="product-card">
+                      <div class="inner-card">
+                        <div class="icons">
+                          <div
+                            class="fav p-2"
+                            data-bs-toggle="tooltip"
+                            data-bs-placement="top"
+                            title="Add to Wishlist"
+                          >
+                            <i class="fa fa-heart-o"></i>
+                          </div>
+                          <div class="refresh p-2">
+                            <i class="fa fa-refresh"></i>
+                          </div>
+                          <div
+                            class="eye p-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                            <i class="fa fa-eye"></i>
+                          </div>
+                        </div>
+                        <div class="product-img">
+                          <img
+                            src="images/37000208_OR_B-450x450.webp"
+                            class="img-fluid"
+                            alt=""
+                          />
+                        </div>
+                        <div class="text-center p-1 cart text-white bg-black">
+                          Add To Cart
+                        </div>
+                      </div>
+                      <div class="info bg-white">
+                        <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                        <p>$95.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="discounts py-5">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="discount-box">
+                  <div
+                    class="discount d-flex align-items-baseline gap-3 justify-content-around py-3"
+                  >
+                    <p class="text-danger">
+                      Super discount for your first purchase
+                    </p>
+
+                    <div class="code text-white rounded-pill py-2 px-3">
+                      FIRST250
+                    </div>
+                    <span class="text-dark"
+                      >Use discount code in checkout page.</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div
+                  class="campaign-box d-flex align-items-baseline justify-content-around py-3 px-3"
+                >
+                  <p>2nd shopping surprise campaign!</p>
+                  <button class="btn bg-warning py-2 px-3 rounded-pill">
+                    Check Products <i class="fa fa-caret-right"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="featured-box px-3 py-4">
+          <div class="row">
+            <div class="col-lg-3 col-md-5">
+              <div class="left">
+                <div class="featured-deals py-2">
+                  <div
+                    class="title-bar d-flex justify-content-between align-items-center"
+                  >
+                    <h4>Featured Deals</h4>
+                    <span><a href="">VIEW ALL</a></span>
+                  </div>
+                  <div class="cards p-2">
+                    <div class="card mt-3 p-2">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="featured-img">
+                            <img
+                              src="images/37010208_OR_D2-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div
+                            class="badge py-1 mt-2 px-4 text-danger border border-danger"
+                          >
+                            Expired
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="featured-info">
+                            <h3 class="">360deg Product</h3>
+                            <div class="price">$144.00</div>
+                            <span><a href="#">Add to Cart</a></span>
+                          </div>
+                          <div class="offer-info">
+                            Remains until the end of the offer
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-3 p-2">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="featured-img">
+                            <img
+                              src="images/37010208_OR_D2-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div
+                            class="badge py-1 mt-2 px-4 text-danger border border-danger"
+                          >
+                            Expired
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="featured-info">
+                            <h3 class="">360deg Product</h3>
+                            <div class="price">$144.00</div>
+                            <span><a href="#">Add to Cart</a></span>
+                          </div>
+                          <div class="offer-info">
+                            Remains until the end of the offer
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card mt-3 p-2">
+                      <div class="row">
+                        <div class="col-4">
+                          <div class="featured-img">
+                            <img
+                              src="images/37010208_OR_D2-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div
+                            class="badge py-1 mt-2 px-4 text-danger border border-danger"
+                          >
+                            Expired
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="featured-info">
+                            <h3 class="">360deg Product</h3>
+                            <div class="price">$144.00</div>
+                            <span><a href="#">Add to Cart</a></span>
+                          </div>
+                          <div class="offer-info">
+                            Remains until the end of the offer
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials py-2">
+                  <div class="title">
+                    <h1>Testimonials</h1>
+                  </div>
+                  <div class="testimonal-cards">
+                    <div
+                      id="carouselExampleSlidesOnly"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div
+                            class="testimonial-card w-100% py-5 px-4 text-white"
+                          >
+                            <div
+                              class="customer-identity d-flex justify-content-center gap-2 mb-3 align-items-center"
+                            >
+                              <div class="img-cont">
+                                <img
+                                  src="images/test-1.webp"
+                                  class="img-fluid rounded-circle"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="customer-info">
+                                <div class="name">Bradley Kim</div>
+                                <div class="customer">customer</div>
+                              </div>
+                            </div>
+                            <div class="testimony">
+                              <p class="text-center text-white">
+                                This is due to their excellent service,
+                                competitive pricing and customer support. It’s
+                                throughly refresing to get such a personal
+                                touch. Duis aute lorem ipsum is simply free text
+                                irure dolor in reprehenderit in esse nulla
+                                pariatur
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div
+                            class="testimonial-card w-100% py-5 px-4 text-white"
+                          >
+                            <div
+                              class="customer-identity d-flex justify-content-center gap-2 mb-3 align-items-center"
+                            >
+                              <div class="img-cont">
+                                <img
+                                  src="images/test-2.webp"
+                                  class="img-fluid rounded-circle"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="customer-info">
+                                <div class="name">Bradley Kim</div>
+                                <div class="customer">customer</div>
+                              </div>
+                            </div>
+                            <div class="testimony">
+                              <p class="text-center text-white">
+                                This is due to their excellent service,
+                                competitive pricing and customer support. It’s
+                                throughly refresing to get such a personal
+                                touch. Duis aute lorem ipsum is simply free text
+                                irure dolor in reprehenderit in esse nulla
+                                pariatur
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div
+                            class="testimonial-card w-100% py-5 px-4 text-white"
+                          >
+                            <div
+                              class="customer-identity d-flex justify-content-center gap-2 mb-3 align-items-center"
+                            >
+                              <div class="img-cont">
+                                <img
+                                  src="images/test-3.webp"
+                                  class="img-fluid rounded-circle"
+                                  alt=""
+                                />
+                              </div>
+                              <div class="customer-info">
+                                <div class="name">Bradley Kim</div>
+                                <div class="customer">customer</div>
+                              </div>
+                            </div>
+                            <div class="testimony">
+                              <p class="text-center text-white">
+                                This is due to their excellent service,
+                                competitive pricing and customer support. It’s
+                                throughly refresing to get such a personal
+                                touch. Duis aute lorem ipsum is simply free text
+                                irure dolor in reprehenderit in esse nulla
+                                pariatur
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="campaign-box my-2 d-flex align-items-center justify-content-center flex-column py-5 px-3"
+                >
+                  <p>2nd shopping surprise campaign!</p>
+                  <button class="btn w-100 bg-warning py-1 px-5 rounded-pill">
+                    Check Products <i class="fa fa-caret-right"></i>
+                  </button>
+                </div>
+                <div class="categories">
+                  <div class="category-cards">
+                    <a href="#">
+                      <div class="category-card card-1">
+                        <div
+                          class="cat-info d-flex align-items-start justify-content-center flex-column my-2"
+                        >
+                          <h4 class="my-2">Earrings</h4>
+                          <p>Create your own combo now!</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="#">
+                      <div class="category-card card-2">
+                        <div class="cat-info">
+                          <h4>Earrings</h4>
+                          <p>Create your own combo now!</p>
+                        </div>
+                      </div>
+                    </a>
+
+                    <a href="#">
+                      <div class="category-card card-3">
+                        <div class="cat-info">
+                          <h4>Earrings</h4>
+                          <p>Create your own combo now!</p>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="try my-4">
+                  <div class="try-cards">
+                    <div class="try-card p-3">
+                      <div class="icon-box">
+                        <img
+                          src="images/087-customer-service.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                      <h4>24 hour fast customer service</h4>
+                      <p>Get support without waiting, shop faster.</p>
+                    </div>
+                    <div class="try-card p-3">
+                      <div class="icon-box">
+                        <img
+                          src="images/091-dollar.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                      <h4>24 hour fast customer service</h4>
+                      <p>Get support without waiting, shop faster.</p>
+                    </div>
+                    <div class="try-card p-3">
+                      <div class="icon-box">
+                        <img
+                          src="images/100-alert.png"
+                          class="img-fluid"
+                          alt=""
+                        />
+                      </div>
+                      <h4>24 hour fast customer service</h4>
+                      <p>Get support without waiting, shop faster.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-7">
+              <div class="gold-smith d-flex flex-column">
+                <div class="goldsmith-banner">
+                  <div class="banner-content">
+                    <div class="banner-top text-white mb-5">
+                      <p>NECKLACES</p>
+                      <h5>LATEST BEST SELLERS</h5>
+                    </div>
+                    <div class="banner-bottom">
+                      <a href="#" class="text-white text-decoration-underline"
+                        >See More Products</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="best-products py-3 px-4">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6 col-6">
+                      <div class="product-card">
+                        <div class="inner-card">
+                          <div class="icons">
+                            <div
+                              class="fav p-2"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title="Add to Wishlist"
+                            >
+                              <i class="fa fa-heart-o"></i>
+                            </div>
+                            <div class="refresh p-2">
+                              <i class="fa fa-refresh"></i>
+                            </div>
+                            <div
+                              class="eye p-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <i class="fa fa-eye"></i>
+                            </div>
+                          </div>
+                          <div class="product-img">
+                            <img
+                              src="images/37000208_OR_B-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div class="text-center p-1 cart text-white bg-black">
+                            Add To Cart
+                          </div>
+                        </div>
+                        <div class="info bg-white">
+                          <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                          <p>$95.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                      <div class="product-card">
+                        <div class="inner-card">
+                          <div class="icons">
+                            <div
+                              class="fav p-2"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title="Add to Wishlist"
+                            >
+                              <i class="fa fa-heart-o"></i>
+                            </div>
+                            <div class="refresh p-2">
+                              <i class="fa fa-refresh"></i>
+                            </div>
+                            <div
+                              class="eye p-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <i class="fa fa-eye"></i>
+                            </div>
+                          </div>
+                          <div class="product-img">
+                            <img
+                              src="images/37000208_OR_B-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div class="text-center p-1 cart text-white bg-black">
+                            Add To Cart
+                          </div>
+                        </div>
+                        <div class="info bg-white">
+                          <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                          <p>$95.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                      <div class="product-card">
+                        <div class="inner-card">
+                          <div class="icons">
+                            <div
+                              class="fav p-2"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title="Add to Wishlist"
+                            >
+                              <i class="fa fa-heart-o"></i>
+                            </div>
+                            <div class="refresh p-2">
+                              <i class="fa fa-refresh"></i>
+                            </div>
+                            <div
+                              class="eye p-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <i class="fa fa-eye"></i>
+                            </div>
+                          </div>
+                          <div class="product-img">
+                            <img
+                              src="images/37000208_OR_B-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div class="text-center p-1 cart text-white bg-black">
+                            Add To Cart
+                          </div>
+                        </div>
+                        <div class="info bg-white">
+                          <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                          <p>$95.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6">
+                      <div class="product-card">
+                        <div class="inner-card">
+                          <div class="icons">
+                            <div
+                              class="fav p-2"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title="Add to Wishlist"
+                            >
+                              <i class="fa fa-heart-o"></i>
+                            </div>
+                            <div class="refresh p-2">
+                              <i class="fa fa-refresh"></i>
+                            </div>
+                            <div
+                              class="eye p-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <i class="fa fa-eye"></i>
+                            </div>
+                          </div>
+                          <div class="product-img">
+                            <img
+                              src="images/37000208_OR_B-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div class="text-center p-1 cart text-white bg-black">
+                            Add To Cart
+                          </div>
+                        </div>
+                        <div class="info bg-white">
+                          <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                          <p>$95.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 mt-3">
+                      <div class="product-card">
+                        <div class="inner-card">
+                          <div class="icons">
+                            <div
+                              class="fav p-2"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title="Add to Wishlist"
+                            >
+                              <i class="fa fa-heart-o"></i>
+                            </div>
+                            <div class="refresh p-2">
+                              <i class="fa fa-refresh"></i>
+                            </div>
+                            <div
+                              class="eye p-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <i class="fa fa-eye"></i>
+                            </div>
+                          </div>
+                          <div class="product-img">
+                            <img
+                              src="images/37000208_OR_B-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div class="text-center p-1 cart text-white bg-black">
+                            Add To Cart
+                          </div>
+                        </div>
+                        <div class="info bg-white">
+                          <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                          <p>$95.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 mt-3">
+                      <div class="product-card">
+                        <div class="inner-card">
+                          <div class="icons">
+                            <div
+                              class="fav p-2"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title="Add to Wishlist"
+                            >
+                              <i class="fa fa-heart-o"></i>
+                            </div>
+                            <div class="refresh p-2">
+                              <i class="fa fa-refresh"></i>
+                            </div>
+                            <div
+                              class="eye p-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <i class="fa fa-eye"></i>
+                            </div>
+                          </div>
+                          <div class="product-img">
+                            <img
+                              src="images/37000208_OR_B-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div class="text-center p-1 cart text-white bg-black">
+                            Add To Cart
+                          </div>
+                        </div>
+                        <div class="info bg-white">
+                          <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                          <p>$95.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 mt-3">
+                      <div class="product-card">
+                        <div class="inner-card">
+                          <div class="icons">
+                            <div
+                              class="fav p-2"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title="Add to Wishlist"
+                            >
+                              <i class="fa fa-heart-o"></i>
+                            </div>
+                            <div class="refresh p-2">
+                              <i class="fa fa-refresh"></i>
+                            </div>
+                            <div
+                              class="eye p-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <i class="fa fa-eye"></i>
+                            </div>
+                          </div>
+                          <div class="product-img">
+                            <img
+                              src="images/37000208_OR_B-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div class="text-center p-1 cart text-white bg-black">
+                            Add To Cart
+                          </div>
+                        </div>
+                        <div class="info bg-white">
+                          <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                          <p>$95.00</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-6 mt-3">
+                      <div class="product-card">
+                        <div class="inner-card">
+                          <div class="icons">
+                            <div
+                              class="fav p-2"
+                              data-bs-toggle="tooltip"
+                              data-bs-placement="top"
+                              title="Add to Wishlist"
+                            >
+                              <i class="fa fa-heart-o"></i>
+                            </div>
+                            <div class="refresh p-2">
+                              <i class="fa fa-refresh"></i>
+                            </div>
+                            <div
+                              class="eye p-2"
+                              data-bs-toggle="modal"
+                              data-bs-target="#exampleModal"
+                            >
+                              <i class="fa fa-eye"></i>
+                            </div>
+                          </div>
+                          <div class="product-img">
+                            <img
+                              src="images/37000208_OR_B-450x450.webp"
+                              class="img-fluid"
+                              alt=""
+                            />
+                          </div>
+                          <div class="text-center p-1 cart text-white bg-black">
+                            Add To Cart
+                          </div>
+                        </div>
+                        <div class="info bg-white">
+                          <h4 class="py-2 m-0">The Air Scoop-Neck Tee</h4>
+                          <p>$95.00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="sale my-3 p-3 d-flex align-items-center justify-content-between"
+                >
+                  <div></div>
+                  <div class="sale-info">
+                    <h6>Super discount for your first purchase</h6>
+                    <p>Use discount code in checkout page.</p>
+                  </div>
+                  <div class="sale-code">
+                    <h5>BUYNOW225</h5>
+                  </div>
+                  <div class="sale-main">
+                    <span>SALE</span>
+                  </div>
+                </div>
+                <div class="week-deals my-2">
+                  <div
+                    class="title-bar pb-2 d-flex align-items-center justify-content-between"
+                  >
+                    <div class="title d-flex align-items-center">
+                      <h4>Deals Of the Week</h4>
+                      <div class="sub-title mx-4">
+                        <span>Dont miss out on this weeks deals</span>
+                      </div>
+                    </div>
+                    <span><a href="#">View All</a></span>
+                  </div>
+                  <div class="deals">
+                    <div
+                      id="deals-carouselExampleControls"
+                      class="carousel slide"
+                      data-bs-ride="carousel"
+                    >
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <div class="deals-cards my-3">
+                            <div class="row">
+                              <div class="col-lg-3 col-12">
+                                <div class="card p-4">
+                                  <div class="inner-card">
+                                    <div class="img-cont">
+                                      <img
+                                        src="images/ring-group.webp"
+                                        class="img-fluid"
+                                        alt=""
+                                      />
+                                      <div class="icons">
+                                        <div
+                                          class="fav px-2 py-1"
+                                          data-bs-toggle="tooltip"
+                                          data-bs-placement="top"
+                                          title="Add to Wishlist"
+                                        >
+                                          <i class="fa fa-heart-o"></i>
+                                        </div>
+                                        <div class="refresh p-2">
+                                          <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div
+                                          class="eye p-2"
+                                          data-bs-toggle="modal"
+                                          data-bs-target="#exampleModal"
+                                        >
+                                          <i class="fa fa-eye"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <h6 class="my-2">Embossed hoop earrings</h6>
+                                    <div
+                                      class="reviews d-flex align-items-center justify-content-center"
+                                    >
+                                      <span class="me-2"></span>
+                                      <div class="count">1 Review</div>
+                                    </div>
+                                    <div class="deal-price">
+                                      <span>$144.00</span>
+                                    </div>
+                                    <div
+                                      class="progress-bar mt-3 w-100 bg-secondary rounded-pill"
+                                    >
+                                      <div class="progress-inner h-100"></div>
+                                    </div>
+                                    <div
+                                      class="units mt-2 d-flex align-items-center justify-content-between"
+                                    >
+                                      <h4><span>Sold:</span> 11</h4>
+                                      <h4><span>Available:</span> 9</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-6 d-none d-lg-block">
+                                <div class="card p-4">
+                                  <div class="inner-card">
+                                    <div class="img-cont">
+                                      <img
+                                        src="images/ring-group.webp"
+                                        class="img-fluid"
+                                        alt=""
+                                      />
+                                      <div class="icons">
+                                        <div
+                                          class="fav px-2 py-1"
+                                          data-bs-toggle="tooltip"
+                                          data-bs-placement="top"
+                                          title="Add to Wishlist"
+                                        >
+                                          <i class="fa fa-heart-o"></i>
+                                        </div>
+                                        <div class="refresh p-2">
+                                          <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div
+                                          class="eye p-2"
+                                          data-bs-toggle="modal"
+                                          data-bs-target="#exampleModal"
+                                        >
+                                          <i class="fa fa-eye"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <h6 class="my-2">Embossed hoop earrings</h6>
+                                    <div
+                                      class="reviews d-flex align-items-center justify-content-center"
+                                    >
+                                      <span class="me-2"></span>
+                                      <div class="count">1 Review</div>
+                                    </div>
+                                    <div class="deal-price">
+                                      <span>$144.00</span>
+                                    </div>
+                                    <div
+                                      class="progress-bar mt-3 w-100 bg-secondary rounded-pill"
+                                    >
+                                      <div class="progress-inner h-100"></div>
+                                    </div>
+                                    <div
+                                      class="units mt-2 d-flex align-items-center justify-content-between"
+                                    >
+                                      <h4><span>Sold:</span> 11</h4>
+                                      <h4><span>Available:</span> 9</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-6 d-none d-lg-block">
+                                <div class="card p-4">
+                                  <div class="inner-card">
+                                    <div class="img-cont">
+                                      <img
+                                        src="images/ring-group.webp"
+                                        class="img-fluid"
+                                        alt=""
+                                      />
+                                      <div class="icons">
+                                        <div
+                                          class="fav px-2 py-1"
+                                          data-bs-toggle="tooltip"
+                                          data-bs-placement="top"
+                                          title="Add to Wishlist"
+                                        >
+                                          <i class="fa fa-heart-o"></i>
+                                        </div>
+                                        <div class="refresh p-2">
+                                          <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div
+                                          class="eye p-2"
+                                          data-bs-toggle="modal"
+                                          data-bs-target="#exampleModal"
+                                        >
+                                          <i class="fa fa-eye"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <h6 class="my-2">Embossed hoop earrings</h6>
+                                    <div
+                                      class="reviews d-flex align-items-center justify-content-center"
+                                    >
+                                      <span class="me-2"></span>
+                                      <div class="count">1 Review</div>
+                                    </div>
+                                    <div class="deal-price">
+                                      <span>$144.00</span>
+                                    </div>
+                                    <div
+                                      class="progress-bar mt-3 w-100 bg-secondary rounded-pill"
+                                    >
+                                      <div class="progress-inner h-100"></div>
+                                    </div>
+                                    <div
+                                      class="units mt-2 d-flex align-items-center justify-content-between"
+                                    >
+                                      <h4><span>Sold:</span> 11</h4>
+                                      <h4><span>Available:</span> 9</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-6 d-none d-lg-block">
+                                <div class="card p-4">
+                                  <div class="inner-card">
+                                    <div class="img-cont">
+                                      <img
+                                        src="images/ring-group.webp"
+                                        class="img-fluid"
+                                        alt=""
+                                      />
+                                      <div class="icons">
+                                        <div
+                                          class="fav px-2 py-1"
+                                          data-bs-toggle="tooltip"
+                                          data-bs-placement="top"
+                                          title="Add to Wishlist"
+                                        >
+                                          <i class="fa fa-heart-o"></i>
+                                        </div>
+                                        <div class="refresh p-2">
+                                          <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div
+                                          class="eye p-2"
+                                          data-bs-toggle="modal"
+                                          data-bs-target="#exampleModal"
+                                        >
+                                          <i class="fa fa-eye"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <h6 class="my-2">Embossed hoop earrings</h6>
+                                    <div
+                                      class="reviews d-flex align-items-center justify-content-center"
+                                    >
+                                      <span class=""></span>
+                                      <div class="count">1 Review</div>
+                                    </div>
+                                    <div class="deal-price">
+                                      <span>$144.00</span>
+                                    </div>
+                                    <div
+                                      class="progress-bar mt-3 w-100 bg-secondary rounded-pill"
+                                    >
+                                      <div class="progress-inner h-100"></div>
+                                    </div>
+                                    <div
+                                      class="units mt-2 d-flex align-items-center justify-content-between"
+                                    >
+                                      <h4><span>Sold:</span> 11</h4>
+                                      <h4><span>Available:</span> 9</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item">
+                          <div class="deals-cards my-3">
+                            <div class="row">
+                              <div class="col-lg-3 col-12">
+                                <div class="card p-4">
+                                  <div class="inner-card">
+                                    <div class="img-cont">
+                                      <img
+                                        src="images/ring-group.webp"
+                                        class="img-fluid"
+                                        alt=""
+                                      />
+                                      <div class="icons">
+                                        <div
+                                          class="fav px-2 py-1"
+                                          data-bs-toggle="tooltip"
+                                          data-bs-placement="top"
+                                          title="Add to Wishlist"
+                                        >
+                                          <i class="fa fa-heart-o"></i>
+                                        </div>
+                                        <div class="refresh p-2">
+                                          <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div
+                                          class="eye p-2"
+                                          data-bs-toggle="modal"
+                                          data-bs-target="#exampleModal"
+                                        >
+                                          <i class="fa fa-eye"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <h6 class="my-2">Embossed hoop earrings</h6>
+                                    <div
+                                      class="reviews d-flex align-items-center justify-content-center"
+                                    >
+                                      <span class="me-2"></span>
+                                      <div class="count">1 Review</div>
+                                    </div>
+                                    <div class="deal-price">
+                                      <span>$144.00</span>
+                                    </div>
+                                    <div
+                                      class="progress-bar mt-3 w-100 bg-secondary rounded-pill"
+                                    >
+                                      <div class="progress-inner h-100"></div>
+                                    </div>
+                                    <div
+                                      class="units mt-2 d-flex align-items-center justify-content-between"
+                                    >
+                                      <h4><span>Sold:</span> 11</h4>
+                                      <h4><span>Available:</span> 9</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-6 d-none d-lg-block">
+                                <div class="card p-4">
+                                  <div class="inner-card">
+                                    <div class="img-cont">
+                                      <img
+                                        src="images/ring-group.webp"
+                                        class="img-fluid"
+                                        alt=""
+                                      />
+                                      <div class="icons">
+                                        <div
+                                          class="fav px-2 py-1"
+                                          data-bs-toggle="tooltip"
+                                          data-bs-placement="top"
+                                          title="Add to Wishlist"
+                                        >
+                                          <i class="fa fa-heart-o"></i>
+                                        </div>
+                                        <div class="refresh p-2">
+                                          <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div
+                                          class="eye p-2"
+                                          data-bs-toggle="modal"
+                                          data-bs-target="#exampleModal"
+                                        >
+                                          <i class="fa fa-eye"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <h6 class="my-2">Embossed hoop earrings</h6>
+                                    <div
+                                      class="reviews d-flex align-items-center justify-content-center"
+                                    >
+                                      <span class="me-2"></span>
+                                      <div class="count">1 Review</div>
+                                    </div>
+                                    <div class="deal-price">
+                                      <span>$144.00</span>
+                                    </div>
+                                    <div
+                                      class="progress-bar mt-3 w-100 bg-secondary rounded-pill"
+                                    >
+                                      <div class="progress-inner h-100"></div>
+                                    </div>
+                                    <div
+                                      class="units mt-2 d-flex align-items-center justify-content-between"
+                                    >
+                                      <h4><span>Sold:</span> 11</h4>
+                                      <h4><span>Available:</span> 9</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-6 d-none d-lg-block">
+                                <div class="card p-4">
+                                  <div class="inner-card">
+                                    <div class="img-cont">
+                                      <img
+                                        src="images/ring-group.webp"
+                                        class="img-fluid"
+                                        alt=""
+                                      />
+                                      <div class="icons">
+                                        <div
+                                          class="fav px-2 py-1"
+                                          data-bs-toggle="tooltip"
+                                          data-bs-placement="top"
+                                          title="Add to Wishlist"
+                                        >
+                                          <i class="fa fa-heart-o"></i>
+                                        </div>
+                                        <div class="refresh p-2">
+                                          <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div
+                                          class="eye p-2"
+                                          data-bs-toggle="modal"
+                                          data-bs-target="#exampleModal"
+                                        >
+                                          <i class="fa fa-eye"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <h6 class="my-2">Embossed hoop earrings</h6>
+                                    <div
+                                      class="reviews d-flex align-items-center justify-content-center"
+                                    >
+                                      <span class="me-2"></span>
+                                      <div class="count">1 Review</div>
+                                    </div>
+                                    <div class="deal-price">
+                                      <span>$144.00</span>
+                                    </div>
+                                    <div
+                                      class="progress-bar mt-3 w-100 bg-secondary rounded-pill"
+                                    >
+                                      <div class="progress-inner h-100"></div>
+                                    </div>
+                                    <div
+                                      class="units mt-2 d-flex align-items-center justify-content-between"
+                                    >
+                                      <h4><span>Sold:</span> 11</h4>
+                                      <h4><span>Available:</span> 9</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-3 col-6 d-none d-lg-block">
+                                <div class="card p-4">
+                                  <div class="inner-card">
+                                    <div class="img-cont">
+                                      <img
+                                        src="images/ring-group.webp"
+                                        class="img-fluid"
+                                        alt=""
+                                      />
+                                      <div class="icons">
+                                        <div
+                                          class="fav px-2 py-1"
+                                          data-bs-toggle="tooltip"
+                                          data-bs-placement="top"
+                                          title="Add to Wishlist"
+                                        >
+                                          <i class="fa fa-heart-o"></i>
+                                        </div>
+                                        <div class="refresh p-2">
+                                          <i class="fa fa-refresh"></i>
+                                        </div>
+                                        <div
+                                          class="eye p-2"
+                                          data-bs-toggle="modal"
+                                          data-bs-target="#exampleModal"
+                                        >
+                                          <i class="fa fa-eye"></i>
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <h6 class="my-2">Embossed hoop earrings</h6>
+                                    <div
+                                      class="reviews d-flex align-items-center justify-content-center"
+                                    >
+                                      <span class=""></span>
+                                      <div class="count">1 Review</div>
+                                    </div>
+                                    <div class="deal-price">
+                                      <span>$144.00</span>
+                                    </div>
+                                    <div
+                                      class="progress-bar mt-3 w-100 bg-secondary rounded-pill"
+                                    >
+                                      <div class="progress-inner h-100"></div>
+                                    </div>
+                                    <div
+                                      class="units mt-2 d-flex align-items-center justify-content-between"
+                                    >
+                                      <h4><span>Sold:</span> 11</h4>
+                                      <h4><span>Available:</span> 9</h4>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#deals-carouselExampleControls"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#deals-carouselExampleControls"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="week-deals-banner my-2 ps-5">
+                  <div class="row">
+                    <div class="col-lg-6 col-12">
+                      <div class="week-deals-banner-content py-5">
+                        <div
+                          class="banner-title-badge my-2 bg-warning rounded-pill"
+                        >
+                          DEALS OF THE WEEK
+                        </div>
+                        <h3 class="my-3">
+                          Reflect the bonds of the past into your
+                          <span class="text-decoration-underline">modern</span>
+                          life.
+                        </h3>
+                        <p class="my-3">
+                          Fashion is about dressing according to what's
+                          fashionable. Style is more about being yourself.
+                          Design is a constant challenge to balance comfort with
+                          luxe...
+                        </p>
+                        <div class="timer-box my-3">
+                          <span class="px-1">59</span>-<span class="px-1"
+                            >09</span
+                          >-<span class="px-1">56</span>-<span class="px-1"
+                            >08</span
+                          >
+                        </div>
+                        <button class="btn text-white py-2 px-5 rounded-0 my-3">
+                          <span>Buy products</span> <i class="caret-right"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-12 d-none d-lg-block"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="new-season d-flex align-items-center justify-content-center flex-column gap-4"
+        >
+          <div class="new-season-content">
+            <h6 class="bg-warning rounded-pill">New Season</h6>
+            <h3>
+              Back to the past:
+              <span class="animation">
+                <small class="in e">E</small>
+                <small class="in a">a</small>
+                <small class="in r">r</small>
+                <small class="in r">r</small>
+                <small class="in i">i</small>
+                <small class="in n">n</small>
+                <small class="in g">g</small>
+                <small class="in s">s</small>
+              </span>
+            </h3>
+            <p>
+              You can hide so much behind theatrics, and I don't need to do that
+              any more. My relationships with producers or photographers - these
+              are relationships that took years.
+            </p>
+            <a href="#" class="btn"
+              >View all leather products <i class="fa fa-caret-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="ninetheme">
+          <h3>#GoldSmith</h3>
+          <div class="insta text-center">
+            <p>
+              Tag <span>@ninetheme</span> in your Instagram posts for a chance
+              to be featured here.
+            </p>
+            <p>Find more inspiration on <span>our Instagram account.</span></p>
+          </div>
+          <div class="influencers my-4 d-flex align-items-center gap-3">
+                <div class="influencer">
+                  <div class="influencer-main">
+                    <div class="img-cont">
+                      <img
+                        src="images/influencer-1.webp"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="insta-icon">
+                      <svg
+                        height="512"
+                        viewBox="0 0 64 64"
+                        width="512"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="img-fluid"
+                      >
+                        <g fill-rule="evenodd">
+                          <path
+                            d="m48 64h-32a16.0007 16.0007 0 0 1 -16-16v-32a16.0007 16.0007 0 0 1 16-16h32a16 16 0 0 1 16 16v32a16 16 0 0 1 -16 16"
+                            fill="#ff3a55"
+                          ></path>
+                          <path
+                            d="m30 18h18a9.0006 9.0006 0 0 0 .92-17.954c-.306-.017-.609-.046-.92-.046h-32a16.0007 16.0007 0 0 0 -16 16v32a30.0007 30.0007 0 0 1 30-30"
+                            fill="#ff796c"
+                          ></path>
+                          <path
+                            d="m48 32a16 16 0 1 0 16 16v-32a16 16 0 0 1 -16 16"
+                            fill="#e00047"
+                          ></path>
+                        </g>
+                        <circle
+                          cx="44.5"
+                          cy="19.5"
+                          fill="#fff"
+                          r="2.5"
+                        ></circle>
+                        <path
+                          d="m32 24a8 8 0 1 1 -8 8 8.0042 8.0042 0 0 1 8-8zm0-4a12 12 0 1 1 -12 12 12.0057 12.0057 0 0 1 12-12z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                        <path
+                          d="m52 22a10 10 0 0 0 -10-10h-20a10 10 0 0 0 -10 10v20a10 10 0 0 0 10 10h20a10 10 0 0 0 10-10zm4 0a14 14 0 0 0 -14-14h-20a14 14 0 0 0 -14 14v20a14 14 0 0 0 14 14h20a14 14 0 0 0 14-14z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="tag">#goldsmith</p>
+                  </div>
+                </div>
+                <div class="influencer">
+                  <div class="influencer-main">
+                    <div class="img-cont">
+                      <img
+                        src="images/influencer-2.webp"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="insta-icon">
+                      <svg
+                        height="512"
+                        viewBox="0 0 64 64"
+                        width="512"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="img-fluid"
+                      >
+                        <g fill-rule="evenodd">
+                          <path
+                            d="m48 64h-32a16.0007 16.0007 0 0 1 -16-16v-32a16.0007 16.0007 0 0 1 16-16h32a16 16 0 0 1 16 16v32a16 16 0 0 1 -16 16"
+                            fill="#ff3a55"
+                          ></path>
+                          <path
+                            d="m30 18h18a9.0006 9.0006 0 0 0 .92-17.954c-.306-.017-.609-.046-.92-.046h-32a16.0007 16.0007 0 0 0 -16 16v32a30.0007 30.0007 0 0 1 30-30"
+                            fill="#ff796c"
+                          ></path>
+                          <path
+                            d="m48 32a16 16 0 1 0 16 16v-32a16 16 0 0 1 -16 16"
+                            fill="#e00047"
+                          ></path>
+                        </g>
+                        <circle
+                          cx="44.5"
+                          cy="19.5"
+                          fill="#fff"
+                          r="2.5"
+                        ></circle>
+                        <path
+                          d="m32 24a8 8 0 1 1 -8 8 8.0042 8.0042 0 0 1 8-8zm0-4a12 12 0 1 1 -12 12 12.0057 12.0057 0 0 1 12-12z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                        <path
+                          d="m52 22a10 10 0 0 0 -10-10h-20a10 10 0 0 0 -10 10v20a10 10 0 0 0 10 10h20a10 10 0 0 0 10-10zm4 0a14 14 0 0 0 -14-14h-20a14 14 0 0 0 -14 14v20a14 14 0 0 0 14 14h20a14 14 0 0 0 14-14z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="tag">#goldsmith</p>
+                  </div>
+                </div>
+                <div class="influencer d-none d-lg-block d-md-block">
+                  <div class="influencer-main">
+                    <div class="img-cont">
+                      <img
+                        src="images/influencer-3.webp"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="insta-icon">
+                      <svg
+                        height="512"
+                        viewBox="0 0 64 64"
+                        width="512"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="img-fluid"
+                      >
+                        <g fill-rule="evenodd">
+                          <path
+                            d="m48 64h-32a16.0007 16.0007 0 0 1 -16-16v-32a16.0007 16.0007 0 0 1 16-16h32a16 16 0 0 1 16 16v32a16 16 0 0 1 -16 16"
+                            fill="#ff3a55"
+                          ></path>
+                          <path
+                            d="m30 18h18a9.0006 9.0006 0 0 0 .92-17.954c-.306-.017-.609-.046-.92-.046h-32a16.0007 16.0007 0 0 0 -16 16v32a30.0007 30.0007 0 0 1 30-30"
+                            fill="#ff796c"
+                          ></path>
+                          <path
+                            d="m48 32a16 16 0 1 0 16 16v-32a16 16 0 0 1 -16 16"
+                            fill="#e00047"
+                          ></path>
+                        </g>
+                        <circle
+                          cx="44.5"
+                          cy="19.5"
+                          fill="#fff"
+                          r="2.5"
+                        ></circle>
+                        <path
+                          d="m32 24a8 8 0 1 1 -8 8 8.0042 8.0042 0 0 1 8-8zm0-4a12 12 0 1 1 -12 12 12.0057 12.0057 0 0 1 12-12z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                        <path
+                          d="m52 22a10 10 0 0 0 -10-10h-20a10 10 0 0 0 -10 10v20a10 10 0 0 0 10 10h20a10 10 0 0 0 10-10zm4 0a14 14 0 0 0 -14-14h-20a14 14 0 0 0 -14 14v20a14 14 0 0 0 14 14h20a14 14 0 0 0 14-14z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="tag">#goldsmith</p>
+                  </div>
+                </div>
+                <div class="influencer d-none d-lg-block d-md-block">
+                  <div class="influencer-main">
+                    <div class="img-cont">
+                      <img
+                        src="images/influencer-4.webp"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="insta-icon">
+                      <svg
+                        height="512"
+                        viewBox="0 0 64 64"
+                        width="512"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="img-fluid"
+                      >
+                        <g fill-rule="evenodd">
+                          <path
+                            d="m48 64h-32a16.0007 16.0007 0 0 1 -16-16v-32a16.0007 16.0007 0 0 1 16-16h32a16 16 0 0 1 16 16v32a16 16 0 0 1 -16 16"
+                            fill="#ff3a55"
+                          ></path>
+                          <path
+                            d="m30 18h18a9.0006 9.0006 0 0 0 .92-17.954c-.306-.017-.609-.046-.92-.046h-32a16.0007 16.0007 0 0 0 -16 16v32a30.0007 30.0007 0 0 1 30-30"
+                            fill="#ff796c"
+                          ></path>
+                          <path
+                            d="m48 32a16 16 0 1 0 16 16v-32a16 16 0 0 1 -16 16"
+                            fill="#e00047"
+                          ></path>
+                        </g>
+                        <circle
+                          cx="44.5"
+                          cy="19.5"
+                          fill="#fff"
+                          r="2.5"
+                        ></circle>
+                        <path
+                          d="m32 24a8 8 0 1 1 -8 8 8.0042 8.0042 0 0 1 8-8zm0-4a12 12 0 1 1 -12 12 12.0057 12.0057 0 0 1 12-12z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                        <path
+                          d="m52 22a10 10 0 0 0 -10-10h-20a10 10 0 0 0 -10 10v20a10 10 0 0 0 10 10h20a10 10 0 0 0 10-10zm4 0a14 14 0 0 0 -14-14h-20a14 14 0 0 0 -14 14v20a14 14 0 0 0 14 14h20a14 14 0 0 0 14-14z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="tag">#goldsmith</p>
+                  </div>
+                </div>
+                <div class="influencer d-none d-lg-block">
+                  <div class="influencer-main">
+                    <div class="img-cont">
+                      <img
+                        src="images/influencer-5.webp"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="insta-icon">
+                      <svg
+                        height="512"
+                        viewBox="0 0 64 64"
+                        width="512"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="img-fluid"
+                      >
+                        <g fill-rule="evenodd">
+                          <path
+                            d="m48 64h-32a16.0007 16.0007 0 0 1 -16-16v-32a16.0007 16.0007 0 0 1 16-16h32a16 16 0 0 1 16 16v32a16 16 0 0 1 -16 16"
+                            fill="#ff3a55"
+                          ></path>
+                          <path
+                            d="m30 18h18a9.0006 9.0006 0 0 0 .92-17.954c-.306-.017-.609-.046-.92-.046h-32a16.0007 16.0007 0 0 0 -16 16v32a30.0007 30.0007 0 0 1 30-30"
+                            fill="#ff796c"
+                          ></path>
+                          <path
+                            d="m48 32a16 16 0 1 0 16 16v-32a16 16 0 0 1 -16 16"
+                            fill="#e00047"
+                          ></path>
+                        </g>
+                        <circle
+                          cx="44.5"
+                          cy="19.5"
+                          fill="#fff"
+                          r="2.5"
+                        ></circle>
+                        <path
+                          d="m32 24a8 8 0 1 1 -8 8 8.0042 8.0042 0 0 1 8-8zm0-4a12 12 0 1 1 -12 12 12.0057 12.0057 0 0 1 12-12z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                        <path
+                          d="m52 22a10 10 0 0 0 -10-10h-20a10 10 0 0 0 -10 10v20a10 10 0 0 0 10 10h20a10 10 0 0 0 10-10zm4 0a14 14 0 0 0 -14-14h-20a14 14 0 0 0 -14 14v20a14 14 0 0 0 14 14h20a14 14 0 0 0 14-14z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="tag">#goldsmith</p>
+                  </div>
+                </div>
+                <div class="influencer d-none d-lg-block">
+                  <div class="influencer-main">
+                    <div class="img-cont">
+                      <img
+                        src="images/influencer-6.webp"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="insta-icon">
+                      <svg
+                        height="512"
+                        viewBox="0 0 64 64"
+                        width="512"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="img-fluid"
+                      >
+                        <g fill-rule="evenodd">
+                          <path
+                            d="m48 64h-32a16.0007 16.0007 0 0 1 -16-16v-32a16.0007 16.0007 0 0 1 16-16h32a16 16 0 0 1 16 16v32a16 16 0 0 1 -16 16"
+                            fill="#ff3a55"
+                          ></path>
+                          <path
+                            d="m30 18h18a9.0006 9.0006 0 0 0 .92-17.954c-.306-.017-.609-.046-.92-.046h-32a16.0007 16.0007 0 0 0 -16 16v32a30.0007 30.0007 0 0 1 30-30"
+                            fill="#ff796c"
+                          ></path>
+                          <path
+                            d="m48 32a16 16 0 1 0 16 16v-32a16 16 0 0 1 -16 16"
+                            fill="#e00047"
+                          ></path>
+                        </g>
+                        <circle
+                          cx="44.5"
+                          cy="19.5"
+                          fill="#fff"
+                          r="2.5"
+                        ></circle>
+                        <path
+                          d="m32 24a8 8 0 1 1 -8 8 8.0042 8.0042 0 0 1 8-8zm0-4a12 12 0 1 1 -12 12 12.0057 12.0057 0 0 1 12-12z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                        <path
+                          d="m52 22a10 10 0 0 0 -10-10h-20a10 10 0 0 0 -10 10v20a10 10 0 0 0 10 10h20a10 10 0 0 0 10-10zm4 0a14 14 0 0 0 -14-14h-20a14 14 0 0 0 -14 14v20a14 14 0 0 0 14 14h20a14 14 0 0 0 14-14z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="tag">#goldsmith</p>
+                  </div>
+                </div>
+                <div class="influencer d-none d-lg-block">
+                  <div class="influencer-main">
+                    <div class="img-cont">
+                      <img
+                        src="images/influencer-7.webp"
+                        class="img-fluid"
+                        alt=""
+                      />
+                    </div>
+                    <div class="insta-icon">
+                      <svg
+                        height="512"
+                        viewBox="0 0 64 64"
+                        width="512"
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="img-fluid"
+                      >
+                        <g fill-rule="evenodd">
+                          <path
+                            d="m48 64h-32a16.0007 16.0007 0 0 1 -16-16v-32a16.0007 16.0007 0 0 1 16-16h32a16 16 0 0 1 16 16v32a16 16 0 0 1 -16 16"
+                            fill="#ff3a55"
+                          ></path>
+                          <path
+                            d="m30 18h18a9.0006 9.0006 0 0 0 .92-17.954c-.306-.017-.609-.046-.92-.046h-32a16.0007 16.0007 0 0 0 -16 16v32a30.0007 30.0007 0 0 1 30-30"
+                            fill="#ff796c"
+                          ></path>
+                          <path
+                            d="m48 32a16 16 0 1 0 16 16v-32a16 16 0 0 1 -16 16"
+                            fill="#e00047"
+                          ></path>
+                        </g>
+                        <circle
+                          cx="44.5"
+                          cy="19.5"
+                          fill="#fff"
+                          r="2.5"
+                        ></circle>
+                        <path
+                          d="m32 24a8 8 0 1 1 -8 8 8.0042 8.0042 0 0 1 8-8zm0-4a12 12 0 1 1 -12 12 12.0057 12.0057 0 0 1 12-12z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                        <path
+                          d="m52 22a10 10 0 0 0 -10-10h-20a10 10 0 0 0 -10 10v20a10 10 0 0 0 10 10h20a10 10 0 0 0 10-10zm4 0a14 14 0 0 0 -14-14h-20a14 14 0 0 0 -14 14v20a14 14 0 0 0 14 14h20a14 14 0 0 0 14-14z"
+                          fill="#fff"
+                          fill-rule="evenodd"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p class="tag">#goldsmith</p>
+                  </div>
+                </div>
+
+           
+
+          </div>
+        </div>
+        <div
+          class="news-letter d-flex align-items-center justify-content-between"
+        >
+          <div
+            class="customer-services d-flex flex-column gap-2 align-items-start px-2"
+          >
+            <h6>CUSTOMER SERVICES</h6>
+            <h3>(+777) 450-15-415</h3>
+            <span>Monday – Friday: 9:00 - 20:00</span>
+          </div>
+          <div
+            class="news-letter-main d-flex flex-column gap-3 align-items-start px-2"
+          >
+            <h6>NEWSLETTER</h6>
+            <form class="d-flex align-items-center">
+              <input
+                class="email form-control rounded-0 py-3 px-2"
+                type="text"
+                name=""
+                placeholder="Your E-mail"
+                id=""
+              />
+              <input class="submit px-4 py-3" type="submit" value="submit" />
+            </form>
+            <p>
+              Sign up to get the latest on new Products, Promotions, Design news
+              and more
+            </p>
+          </div>
+        </div>
+        <footer>
+          <div class="row">
+            <div class="col-lg-2">
+              <h3>About Wooma</h3>
+              <ul>
+                <li class="py-1"><a href="">Wooma Inside</a></li>
+                <li class="py-1"><a href="">About Us</a></li>
+                <li class="py-1"><a href="">Company</a></li>
+                <li class="py-1"><a href="">Careers</a></li>
+                <li class="py-1"><a href="">Brands</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <h3>Categories</h3>
+              <ul>
+                <li class="py-1"><a href="">Rings</a></li>
+                <li class="py-1"><a href="">Accessories</a></li>
+                <li class="py-1"><a href="">Earrings</a></li>
+                <li class="py-1"><a href="">Gold Buckle</a></li>
+                <li class="py-1"><a href="">Bracelets</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <h3>Campaigns</h3>
+              <ul>
+                <li class="py-1"><a href="">WInter Shoes</a></li>
+                <li class="py-1"><a href="">Women T-shirts</a></li>
+                <li class="py-1"><a href="">%50 Sales</a></li>
+                <li class="py-1"><a href="">Outlet</a></li>
+                <li class="py-1"><a href="">Pre-Sale</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-2">
+              <h3>Help</h3>
+              <ul>
+                <li class="py-1"><a href="">Order Tracking</a></li>
+                <li class="py-1"><a href="">Terms&Conditions</a></li>
+                <li class="py-1"><a href="">Privacy Policy</a></li>
+                <li class="py-1"><a href="">Tutorials</a></li>
+                <li class="py-1"><a href="">FAQ</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <h3>Download App for faster shopping</h3>
+              <div class="download my-3">
+                <div class="bulb">
+                  <a href="#"
+                    ><i
+                      class="fa fa-lightbulb-o text-white"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+                <div class="play">
+                  <a href="#"
+                    ><i class="fa fa-play text-white" aria-hidden="true"></i
+                  ></a>
+                </div>
+                <div class="app">
+                  <a href="#"
+                    ><i class="fa fa-apple text-white" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="follow mt-5">
+                <h3>Follow</h3>
+                <div class="icons">
+                  <div class="facebook">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="twitter">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div>
+                  <div class="youtube">
+                    <a href="#"><i class="fa fa-youtube-play"></i></a>
+                  </div>
+                  <div class="telegram">
+                    <a href="#"><i class="fa fa-telegram"></i></a>
+                  </div>
+                  <div class="whatsapp">
+                    <a href="#"><i class="fa fa-whatsapp"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2"></div>
+          </div>
+        </footer>
+        <div class="foot">
+          <h6>HELLO@DEMOGOLDSMITH.COM</h6>
+          <h6>COPYRIGHT-GOLDSMITH.COM</h6>
+        </div>
+      </div>
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Modal title
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">...</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Modal title
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">...</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Modal title
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">...</div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+  </body>
+</html>

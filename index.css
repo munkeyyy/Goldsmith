@@ -1135,7 +1135,7 @@ select:focus-visible {
 
 .product .carousel-box .indicators .carousel-indicators {
   left: -123px;
-  top: -500px;
+  top: -400px;
   width: 20%;
 }
 
@@ -1190,10 +1190,13 @@ select:focus-visible {
 }
 
 .product .carousel-box .carousel-body .carousel-item .img-cont {
-  height: 1000px;
-  width: 800px;
+  height: 900px;
+  width: 750px;
 }
 
+.product .carousel-box .carousel-body .carousel-item .img-cont img{
+  object-fit: cover;
+}
 .product .carousel-box .carousel-body .carousel-item iframe {
   height: 100%;
   width: 100%;
@@ -1210,6 +1213,7 @@ select:focus-visible {
 .product .product-info .bread ul li::marker{
   color: #787878;
 }
+
 .news-letter-main .email {
   width: 430px !important;
 }

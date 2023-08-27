@@ -6,6 +6,9 @@ body {
   scroll-behavior: smooth;
   font-family: "Jost", sans-serif;
 }
+body::-webkit-scrollbar {
+  display: none !important;
+}
 a {
   text-decoration: none;
   color: black;
@@ -25,7 +28,7 @@ li {
   font-family: "Jost", sans-serif;
   font-size: 14px;
   font-weight: 600;
-  width: 20%;
+  width: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,6 +39,7 @@ li {
 
   transform-origin: bottom;
   animation: text-1 ease-in-out 3.5s infinite alternate;
+  /* opacity: 0; */
 }
 .slogans .text-2 {
   position: absolute;
@@ -46,6 +50,7 @@ li {
 
   transform: rotateX(180deg);
   animation: text-2 ease-in-out 3.5s infinite alternate;
+  /* opacity: 1; */
 }
 nav {
   border-bottom: 1px solid #f0f0f1;
@@ -58,7 +63,7 @@ nav .nav-links {
   font-weight: 500;
 }
 nav .logo {
-  padding-right: 18rem;
+  padding-right: 12rem;
 }
 nav .logo a {
   color: black;
@@ -135,12 +140,14 @@ nav a {
 @keyframes text-1 {
   100% {
     transform: perspective(500px) rotateX(180deg);
+    /* opacity: 1; */
     /* transform-origin:bottom; */
   }
 }
 @keyframes text-2 {
   100% {
     transform: perspective(500px) rotateX(0);
+    /* opacity: 0; */
     /* transform-origin: top; */
   }
 }
@@ -899,11 +906,310 @@ nav a {
   transform: translate(-60%, 0);
 }
 
+.faq-banner {
+  padding: 80px 20px;
+  background: url(images/faq-banner.webp) no-repeat;
+  background-size: cover;
+  background-position: center right;
+}
+.faq-banner h4 {
+  color: white;
+  font-size: 32px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+}
+.faq-banner p {
+  color: white;
+  font-size: 15px;
+}
+
+.faq-content {
+  padding: 80px 20px;
+}
+
+.faq-content .faq-ad {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.faq-ad .img-cont {
+  overflow: hidden;
+}
+.faq-ad .img-cont img {
+  height: 314px;
+  width: 380px;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.faq-ad:hover .img-cont img {
+  transform: scale(1.1);
+}
+
+.faq-ad-content {
+  position: absolute;
+  top: 45px;
+  left: 20px;
+}
+
+.faq-ad-content h6 {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.faq-ad-content h4 {
+  font-size: 15px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+.faq-ad-content p {
+  font-size: 15px;
+}
+
+.q-section .accordion-flush .accordion-item {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.q-section .accordion-button {
+  color: black;
+  font-weight: 600;
+}
+.q-section-cont .accordion-flush {
+  margin: 20px 0 !important;
+}
+.q-section .accordion-button:not(.collapsed) {
+  box-shadow: unset;
+  color: #cc7351;
+  background-color: unset;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+.q-section .accordion-button:focus {
+  box-shadow: unset;
+  border: unset;
+}
 .news-letter {
   padding: 40px 0;
   border-top: 1px solid #8e8e8e;
 }
 
+.contact {
+  padding: 80px 0 !important;
+}
+
+.contact .map {
+  overflow: hidden !important;
+  width: 50%;
+}
+.contact .contact-content .content-info .showroom h2,
+.contact .contact-content .content-info .help h2 {
+  margin-bottom: 20px;
+}
+.contact .contact-content .form h5 {
+  margin-bottom: 20px;
+}
+.contact .contact-content .content-info form input,
+select,
+textarea {
+  border-radius: 0 !important;
+  padding: 12px 10px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.325);
+}
+.contact .contact-content .content-info form input:focus,
+select:focus,
+textarea:focus {
+  border: 1px solid black;
+  border-radius: 0 !important;
+}
+.contact .contact-content .content-info form .submit {
+  width: 25%;
+  margin: 5px 0;
+  color: white;
+  font-weight: 600;
+  background-color: black;
+}
+
+.contact .contact-content .content-info form select {
+  color: #787878;
+}
+.contact .contact-content .content-info form input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: none;
+}
+.contact .map iframe {
+  height: 800px !important;
+  width: 100%;
+}
+
+.blog .blog-banner {
+  background-color: #f8f9fa;
+  border-top: 1px solid #f0f0f1;
+  border-bottom: 1px solid #f0f0f1;
+  padding: 30px 0;
+}
+
+.blog .blog-banner ul li {
+  list-style: disc;
+}
+.blog .blog-banner .bread {
+  font-size: 12px;
+}
+.blog .blog-banner ul li::marker {
+  color: #e2e2e2;
+}
+.blog .blog-content {
+  padding: 50px 0;
+}
+
+.blog .blog-content .card .card-content .date {
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  color: #7d7d7d;
+}
+
+.blog .blog-content .card .card-content h4 {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.blog .blog-content .card .card-content .img-cont {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.blog .blog-content .card .card-content .img-cont:hover {
+  opacity: 0.85;
+}
+.blog .blog-content .sidebar .categories .category-item {
+  font-size: 15px;
+}
+
+.blog .blog-content .sidebar .products .img-cont {
+  height: 15%;
+  width: 15%;
+}
+.blog .blog-content .sidebar .products .product-item .product-desc h6 {
+  margin-bottom: 2px;
+  margin-top: 0 !important;
+}
+.blog .blog-content .sidebar .products .product-item .product-desc span {
+  font-size: 12px;
+  position: relative;
+}
+.blog .blog-content .sidebar .products .product-item .product-desc span::after {
+  content: "\f005\f005\f005\f005\f005";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  font-family: FontAwesome;
+  color: #fac213;
+}
+.blog .blog-content .sidebar .products .product-item .product-desc h6,
+.blog .blog-content .sidebar .products .product-item .product-desc p {
+  font-size: 14px;
+  margin: 10px 0 0 0;
+}
+
+.blog .blog-content .sidebar form input {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.blog .blog-content .sidebar form input:focus {
+  border: 1px solid black;
+}
+.blog .blog-content .sidebar form input:focus-visible {
+  outline: none;
+}
+.blog .blog-content .sidebar form .search {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+
+.product {
+  padding: 60px 0;
+}
+
+.product .carousel-box .indicators .carousel-indicators {
+  left: -123px;
+  top: -500px;
+  width: 20%;
+}
+
+.product .carousel-box .indicators .carousel-indicators [data-bs-target] {
+  height: 80px !important;
+  width: 80px !important;
+  background-color: transparent;
+}
+.product
+  .carousel-box
+  .indicators
+  .carousel-indicators
+  [data-bs-target]:nth-child(1) {
+  background: url(images/necklace-2.webp) no-repeat;
+  background-size: cover;
+}
+.product
+  .carousel-box
+  .indicators
+  .carousel-indicators
+  [data-bs-target]:nth-child(2) {
+  background: url(images/girl-1.webp) no-repeat;
+  background-size: cover;
+}
+.product
+  .carousel-box
+  .indicators
+  .carousel-indicators
+  [data-bs-target]:nth-child(3) {
+  background: url(images/necklase-1.webp) no-repeat;
+  background-size: cover;
+}
+.product
+  .carousel-box
+  .indicators
+  .carousel-indicators
+  [data-bs-target]:nth-child(4) {
+  background: url(images/necklace-2.webp) no-repeat;
+  background-size: cover;
+}
+.product
+  .carousel-box
+  .indicators
+  .carousel-indicators
+  [data-bs-target]:nth-child(5) {
+  background: url(images/video-play.png) no-repeat;
+  background-size: cover;
+}
+
+.product .carousel-box .carousel-body {
+  margin-left: 100px !important;
+}
+
+.product .carousel-box .carousel-body .carousel-item .img-cont {
+  height: 1000px;
+  width: 800px;
+}
+
+.product .carousel-box .carousel-body .carousel-item iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.product .product-info .bread{
+  font-size: 12px;
+}
+
+.product .product-info .bread ul li{
+  list-style: disc;
+}
+
+.product .product-info .bread ul li::marker{
+  color: #787878;
+}
 .news-letter-main .email {
   width: 430px !important;
 }
@@ -1033,6 +1339,8 @@ footer .follow > div i {
   font-weight: 600;
   color: white;
 }
+
+/* media query */
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .slogans {
@@ -1240,18 +1548,39 @@ footer .follow > div i {
     width: 155px !important;
   }
 
-  .news-letter{
+  .news-letter {
     flex-direction: column !important;
     gap: 15px;
     align-items: start !important;
   }
 
   .news-letter-main .email {
-    width: 274px !important;
+    width: 100% !important;
   }
 
-  .foot{
+  .foot {
     flex-direction: column;
     gap: 15px;
+  }
+
+  .contact {
+    flex-direction: column-reverse !important;
+    padding: 40px 0 !important;
+  }
+  .contact .map {
+    width: 100%;
+    padding: 10px;
+  }
+  .contact .map iframe {
+    width: 100% !important;
+    height: 500px !important;
+  }
+
+  .contact .contact-content {
+    width: 100% !important;
+  }
+
+  .contact .contact-content .content-info .help {
+    margin-top: 25px;
   }
 }

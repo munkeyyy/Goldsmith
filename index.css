@@ -1898,4 +1898,9 @@ footer .follow > div i {
   .product .each-product .item-desc{
     gap: 1rem !important;
   }
+
+  .product .each-product .item-main p{
+    font-size: 14px;
+  }
+  
 }
